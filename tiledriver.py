@@ -3,7 +3,7 @@ import random
 from typing import List, Tuple, Optional
 
 
-class PuzzleState:  # do not modify
+class PuzzleState:
 
     def __init__(self, tiles: Tuple[int, ...], path: str) -> None:
         self.tiles = tiles
